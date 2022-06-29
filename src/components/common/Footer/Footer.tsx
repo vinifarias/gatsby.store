@@ -9,12 +9,14 @@ import Link from 'src/components/ui/Link'
 import SROnly from 'src/components/ui/SROnly'
 import { mark } from 'src/sdk/tests/mark'
 
+import { FooterForm } from './FooterForm'
 import FooterLinks from './FooterLinks'
 
 function Footer() {
   return (
     <footer className="footer layout__content-full">
       <IncentivesFooter />
+      <FooterForm />
 
       <div className="footer__section layout__content">
         <FooterLinks />
