@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Applies new local tokens to `Navbar` ([#132](https://github.com/vtex-sites/gatsby.store/pull/132))
+- Newsletter form and `useNewsletter` hook ([#134](https://github.com/vtex-sites/gatsby.store/pull/134))
 
 ### Changed
 
