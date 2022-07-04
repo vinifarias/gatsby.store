@@ -4,19 +4,19 @@ import {
   PaymentMethods as UIPaymentMethods,
 } from '@faststore/ui'
 import IncentivesFooter from 'src/components/sections/Incentives/IncentivesFooter'
+import Newsletter from 'src/components/sections/Newsletter'
 import Icon from 'src/components/ui/Icon'
 import Link from 'src/components/ui/Link'
 import SROnly from 'src/components/ui/SROnly'
 import { mark } from 'src/sdk/tests/mark'
 
-import { NewsletterForm } from './NewsletterForm'
 import FooterLinks from './FooterLinks'
 
 function Footer() {
   return (
     <footer className="footer layout__content-full">
       <IncentivesFooter />
-      <NewsletterForm />
+      <Newsletter title="Newsletter" />
 
       <div className="footer__section layout__content">
         <FooterLinks />
