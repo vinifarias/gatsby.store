@@ -1,12 +1,11 @@
 import { SearchInputProvider } from 'src/sdk/search/useSearchInput'
-import { SessionProvider } from '@faststore/sdk'
 
 import { SuggestionsTopSearch } from '.'
 import type { SuggestionsTopSearchProps } from '.'
 
-export default {
+const meta = {
   component: SuggestionsTopSearch,
-  title: 'Organisms/Search/TopSearch',
+  title: 'Features/Search/TopSearch',
 }
 
 const Template = (props: SuggestionsTopSearchProps) => (
@@ -18,11 +17,9 @@ const Template = (props: SuggestionsTopSearchProps) => (
       background: 'white',
     }}
   >
-    <SessionProvider initialState={{}}>
-      <SearchInputProvider>
-        <SuggestionsTopSearch {...props} />
-      </SearchInputProvider>
-    </SessionProvider>
+    <SearchInputProvider>
+      <SuggestionsTopSearch {...props} />
+    </SearchInputProvider>
   </div>
 )
 
@@ -41,3 +38,5 @@ Default.args = {
 Default.parameters = {
   backgrounds: { default: 'dark' },
 }
+
+export default meta

@@ -1,5 +1,3 @@
-import { SessionProvider } from '@faststore/sdk'
-import { LocationProvider } from '@reach/router'
 import { SearchInputProvider } from 'src/sdk/search/useSearchInput'
 
 import Suggestions from '.'
@@ -36,9 +34,9 @@ const product = ({ id = '1', name = 'Handmade Steel Towels Practical' }) => ({
   },
 })
 
-export default {
+const meta = {
   component: Suggestions,
-  title: 'Organisms/Search/Suggestions',
+  title: 'Features/Search/Suggestions',
 }
 
 const Template = (props: SuggestionsProps) => (
@@ -50,13 +48,9 @@ const Template = (props: SuggestionsProps) => (
       background: 'white',
     }}
   >
-    <LocationProvider>
-      <SessionProvider>
-        <SearchInputProvider>
-          <Suggestions {...props} />
-        </SearchInputProvider>
-      </SessionProvider>
-    </LocationProvider>
+    <SearchInputProvider>
+      <Suggestions {...props} />
+    </SearchInputProvider>
   </div>
 )
 
@@ -78,3 +72,5 @@ Default.args = {
 Default.parameters = {
   backgrounds: { default: 'dark' },
 }
+
+export default meta

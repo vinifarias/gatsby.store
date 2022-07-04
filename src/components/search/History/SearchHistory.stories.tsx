@@ -1,14 +1,21 @@
+import { searchHistoryStore } from 'src/sdk/search/useSearchHistory'
 import { SearchInputProvider } from 'src/sdk/search/useSearchInput'
 
 import { SearchHistory } from '.'
-import type { SearchHistoryProps } from '.'
 
-export default {
+searchHistoryStore.set([
+  { term: 'headphone', path: '/' },
+  { term: 'audio & video', path: '/' },
+  { term: 'mh-7000', path: '/' },
+  { term: 'jbl go', path: '/' },
+])
+
+const meta = {
   component: SearchHistory,
-  title: 'Organisms/Search/History',
+  title: 'Features/Search/History',
 }
 
-const Template = (props: SearchHistoryProps) => {
+const Template = () => {
   return (
     <div
       style={{
@@ -19,7 +26,7 @@ const Template = (props: SearchHistoryProps) => {
       }}
     >
       <SearchInputProvider>
-        <SearchHistory {...props} />
+        <SearchHistory />
       </SearchInputProvider>
     </div>
   )
@@ -27,10 +34,10 @@ const Template = (props: SearchHistoryProps) => {
 
 export const Default = Template.bind({})
 
-Default.args = {
-  history: ['headphone', 'audio & video', 'mh-7000', 'jbl go'],
-}
+Default.args = {}
 
 Default.parameters = {
   backgrounds: { default: 'dark' },
 }
+
+export default meta
