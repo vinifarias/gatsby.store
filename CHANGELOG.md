@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Replaces React state to global store state ([#136](https://github.com/vtex-sites/gatsby.store/pull/136))
+
 ### Deprecated
 
 ### Removed
