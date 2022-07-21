@@ -1,40 +1,119 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### 0.2.3 (2022-07-21)
 
-## [Unreleased]
 
-### Added
+### Features
 
-- Applies CSS Modules to `Incentives` ([#147](https://github.com/vtex-sites/gatsby.store/pull/147))
-- Applies new local tokens to `Footer` ([#147](https://github.com/vtex-sites/gatsby.store/pull/147))
-- Applies new local tokens to `Breadcrumb` ([#146](https://github.com/vtex-sites/gatsby.store/pull/146))
-- Applies new local tokens to `SlideOver` ([#142](https://github.com/vtex-sites/gatsby.store/pull/142))
-- Applies new local tokens to `CartSidebar` ([#142](https://github.com/vtex-sites/gatsby.store/pull/142))
-- Adds [MSW Addon](https://storybook.js.org/addons/msw-storybook-addon) ([#143](https://github.com/vtex-sites/gatsby.store/pull/143))
-- Global tokens doc page on storybook ([#140](https://github.com/vtex-sites/gatsby.store/pull/140))
-- Uses new cross selling API on PDP ([#137](https://github.com/vtex-sites/gatsby.store/pull/137))
-- Applies new local tokens to `SuggestionProductCard` ([#135](https://github.com/vtex-sites/gatsby.store/pull/135))
-- Applies new local tokens to `Navbar` ([#132](https://github.com/vtex-sites/gatsby.store/pull/132))
+* `Regionalization` Doc Storybook ([#124](https://github.com/vtex-sites/gatsby.store/issues/124)) ([8c61614](https://github.com/vtex-sites/gatsby.store/commit/8c6161411825ed3ae37fc3658a2de2691535d8ee)), closes [#110](https://github.com/vtex-sites/gatsby.store/issues/110)
+* Add document in `QuantitySelector` ([#85](https://github.com/vtex-sites/gatsby.store/issues/85)) ([d6994c8](https://github.com/vtex-sites/gatsby.store/commit/d6994c87b15ce32fc32f6074b82ffa6f173ebe52))
+* Add MSW addon config ([#143](https://github.com/vtex-sites/gatsby.store/issues/143)) ([32237a0](https://github.com/vtex-sites/gatsby.store/commit/32237a065488124f932d47598d96093a4c96b61d))
+* Add new tokens to OutOfStock ([#99](https://github.com/vtex-sites/gatsby.store/issues/99)) ([908ce65](https://github.com/vtex-sites/gatsby.store/commit/908ce658e24bd4fcc5164104293f06b11631e296))
+* Add priceCurrency to Offer ([#139](https://github.com/vtex-sites/gatsby.store/issues/139)) ([0c5c5a8](https://github.com/vtex-sites/gatsby.store/commit/0c5c5a8fa9a218e1ae4f8e3f3ec8fff3f280506a))
+* Add search event API # ([#2](https://github.com/vtex-sites/gatsby.store/issues/2)) ([ff99906](https://github.com/vtex-sites/gatsby.store/commit/ff999062e3a5c31fcd31fc07db69f533bdf8514c))
+* Add search history & top searches ([#67](https://github.com/vtex-sites/gatsby.store/issues/67)) ([05f29a1](https://github.com/vtex-sites/gatsby.store/commit/05f29a113a93f1474017adf62f73c10f6faec58b)), closes [/github.com/vtex-sites/gatsby.store/pull/67#discussion_r882857670](https://github.com/vtex-sites//github.com/vtex-sites/gatsby.store/pull/67/issues/discussion_r882857670) [/github.com/vtex-sites/gatsby.store/pull/67#discussion_r882856990](https://github.com/vtex-sites//github.com/vtex-sites/gatsby.store/pull/67/issues/discussion_r882856990) [/github.com/vtex-sites/gatsby.store/pull/67#discussion_r887397506](https://github.com/vtex-sites//github.com/vtex-sites/gatsby.store/pull/67/issues/discussion_r887397506) [/github.com/vtex-sites/gatsby.store/pull/67#discussion_r887397864](https://github.com/vtex-sites//github.com/vtex-sites/gatsby.store/pull/67/issues/discussion_r887397864) [/github.com/vtex-sites/gatsby.store/pull/67#pullrequestreview-992765808](https://github.com/vtex-sites//github.com/vtex-sites/gatsby.store/pull/67/issues/pullrequestreview-992765808)
+* Add tokens to `SuggestionProductCard` ([#135](https://github.com/vtex-sites/gatsby.store/issues/135)) ([b38c741](https://github.com/vtex-sites/gatsby.store/commit/b38c741b56cce3e7b37c77a8e4d5b1464f8cbdc3))
+* Adds new tokens to `Breadcrumb` ([#146](https://github.com/vtex-sites/gatsby.store/issues/146)) ([1219255](https://github.com/vtex-sites/gatsby.store/commit/12192553f01b0bc039f986c875c83ad791e03b94)), closes [#162](https://github.com/vtex-sites/gatsby.store/issues/162)
+* Adds new tokens to `Navbar` ([#132](https://github.com/vtex-sites/gatsby.store/issues/132)) ([8909b7b](https://github.com/vtex-sites/gatsby.store/commit/8909b7b3853af17b6b81da9441e61e4e0df8d7ed))
+* Adds new tokens to `Tiles` ([#120](https://github.com/vtex-sites/gatsby.store/issues/120)) ([ab9fe2f](https://github.com/vtex-sites/gatsby.store/commit/ab9fe2f7501b71209bdda8d6af0ee5c5c39b943d))
+* Adds new tokens to Incentives ([#49](https://github.com/vtex-sites/gatsby.store/issues/49)) ([68266c0](https://github.com/vtex-sites/gatsby.store/commit/68266c04159c06654eb0424dac25cabf1f00d9c4))
+* Adds new tokens to Link ([#19](https://github.com/vtex-sites/gatsby.store/issues/19)) ([a77dd7e](https://github.com/vtex-sites/gatsby.store/commit/a77dd7ed6652734299f932afb19f0185d666dd56))
+* Adds new tokens to Select ([#17](https://github.com/vtex-sites/gatsby.store/issues/17)) ([c3068a7](https://github.com/vtex-sites/gatsby.store/commit/c3068a72d35212af42de8f33ec76e33f8bdf1e34))
+* Adds tokens to  `Filter` ([#128](https://github.com/vtex-sites/gatsby.store/issues/128)) ([17b56ef](https://github.com/vtex-sites/gatsby.store/commit/17b56efba039756da0fff3fe900c975cede470a1)), closes [#139](https://github.com/vtex-sites/gatsby.store/issues/139)
+* Adds tokens to `Alert` ([#77](https://github.com/vtex-sites/gatsby.store/issues/77)) ([6730b21](https://github.com/vtex-sites/gatsby.store/commit/6730b2113820dfaeebf29d20f9471faa97191dbe))
+* Adds tokens to `CartItem` ([#95](https://github.com/vtex-sites/gatsby.store/issues/95)) ([9420032](https://github.com/vtex-sites/gatsby.store/commit/942003296479683d8d14a5da11eb29ff7b40f007))
+* Adds tokens to `EmptyState` ([#113](https://github.com/vtex-sites/gatsby.store/issues/113)) ([7837356](https://github.com/vtex-sites/gatsby.store/commit/78373563ecfc60514b3816c8c0214d36c044dd4d))
+* adds tokens to `Footer` ([#147](https://github.com/vtex-sites/gatsby.store/issues/147)) ([4315630](https://github.com/vtex-sites/gatsby.store/commit/431563005c216740ac37ede24801ac289ccffb1f)), closes [#155](https://github.com/vtex-sites/gatsby.store/issues/155)
+* Adds tokens to `ImageGallery` ([#125](https://github.com/vtex-sites/gatsby.store/issues/125)) ([c9ff10c](https://github.com/vtex-sites/gatsby.store/commit/c9ff10c3ed75e4616f7783f66ca55ed328da8f5f)), closes [#143](https://github.com/vtex-sites/gatsby.store/issues/143)
+* Adds tokens to `Price` ([#83](https://github.com/vtex-sites/gatsby.store/issues/83)) ([1e7afd9](https://github.com/vtex-sites/gatsby.store/commit/1e7afd970ce302b8f0764b122bb19a58d481d9d2))
+* Adds tokens to `ProductGrid` ([#127](https://github.com/vtex-sites/gatsby.store/issues/127)) ([b77d539](https://github.com/vtex-sites/gatsby.store/commit/b77d53946490fbf674270c1cdcedb2c5ed97693d)), closes [#144](https://github.com/vtex-sites/gatsby.store/issues/144)
+* Adds tokens to `ProductTitle` ([#84](https://github.com/vtex-sites/gatsby.store/issues/84)) ([d032c4b](https://github.com/vtex-sites/gatsby.store/commit/d032c4bf29092de64a354968546b576caccd5bb0))
+* Adds tokens to `Radio` ([#89](https://github.com/vtex-sites/gatsby.store/issues/89)) ([f12b84e](https://github.com/vtex-sites/gatsby.store/commit/f12b84e59070504d433340eb7d0ae4c11d6ca2cf)), closes [#87](https://github.com/vtex-sites/gatsby.store/issues/87)
+* Adds tokens to `SlideOver` ([#142](https://github.com/vtex-sites/gatsby.store/issues/142)) ([34a91df](https://github.com/vtex-sites/gatsby.store/commit/34a91df40cbe42c35773594df6f5d24db795dcc1)), closes [#145](https://github.com/vtex-sites/gatsby.store/issues/145)
+* Adds tokens to Accordion ([#126](https://github.com/vtex-sites/gatsby.store/issues/126)) ([3c56c2d](https://github.com/vtex-sites/gatsby.store/commit/3c56c2d01510da0fe76b01da096fe7af6e2c0ce1)), closes [#130](https://github.com/vtex-sites/gatsby.store/issues/130)
+* Adds tokens to Checkbox ([#61](https://github.com/vtex-sites/gatsby.store/issues/61)) ([aa15c62](https://github.com/vtex-sites/gatsby.store/commit/aa15c624b177b76d932538f44635ff833ff758a6))
+* Adjust Alert for CMS ([#29](https://github.com/vtex-sites/gatsby.store/issues/29)) ([57be96b](https://github.com/vtex-sites/gatsby.store/commit/57be96b7bd997685b01638d47699e31cf8753c1f))
+* Best Practices Section ([#110](https://github.com/vtex-sites/gatsby.store/issues/110)) ([6765bdd](https://github.com/vtex-sites/gatsby.store/commit/6765bddc7945ec5b307ed47fef04a7a2707c2030))
+* Canonical PDP slugs ([#87](https://github.com/vtex-sites/gatsby.store/issues/87)) ([a88ecbc](https://github.com/vtex-sites/gatsby.store/commit/a88ecbc67b692df8df77441bf499bf9a1e63c12d))
+* Creates and styles Toggle component ([#14](https://github.com/vtex-sites/gatsby.store/issues/14)) ([b06bd2c](https://github.com/vtex-sites/gatsby.store/commit/b06bd2c58ed940bf7998adb91f208c267c3ba7f2))
+* Extract and adds tokens to Dropdown ([#111](https://github.com/vtex-sites/gatsby.store/issues/111)) ([09a2f42](https://github.com/vtex-sites/gatsby.store/commit/09a2f42eebf50da80a39295aa15fda14c740621a))
+* Incremental Static Build ([#47](https://github.com/vtex-sites/gatsby.store/issues/47)) ([33138df](https://github.com/vtex-sites/gatsby.store/commit/33138dfa9dd6b8c26b59d0e47fbdf6b9225d3a30))
+* Input Text Theming ([#15](https://github.com/vtex-sites/gatsby.store/issues/15)) ([15fcb31](https://github.com/vtex-sites/gatsby.store/commit/15fcb31b50d5f6618013b41a2c011a8f3490d425))
+* Organizes Storybook ([#5](https://github.com/vtex-sites/gatsby.store/issues/5)) ([c0a2132](https://github.com/vtex-sites/gatsby.store/commit/c0a21324e13f912075983ef68bc9bee1150f4e1b)), closes [#482](https://github.com/vtex-sites/gatsby.store/issues/482)
+* Price range filter on PLP  ([#112](https://github.com/vtex-sites/gatsby.store/issues/112)) ([9916982](https://github.com/vtex-sites/gatsby.store/commit/991698253d516fc7cd819ddcf899496da644eb27))
+* React 18 features ([#91](https://github.com/vtex-sites/gatsby.store/issues/91)) ([3196748](https://github.com/vtex-sites/gatsby.store/commit/31967488be39dd7de93b5e29e687732c9c226521))
+* Refactors `Button` component ([#52](https://github.com/vtex-sites/gatsby.store/issues/52)) ([50bec25](https://github.com/vtex-sites/gatsby.store/commit/50bec2583ccd62f3c51317e566381b75f00be09b))
+* Search suggestions term count ([#71](https://github.com/vtex-sites/gatsby.store/issues/71)) ([c08797a](https://github.com/vtex-sites/gatsby.store/commit/c08797aa76cbb4769a0ed6fd18897e6df9db1e5e))
+* Style Toast component ([#28](https://github.com/vtex-sites/gatsby.store/issues/28)) ([cba4661](https://github.com/vtex-sites/gatsby.store/commit/cba4661599c76ad1b7dd799719b3705a0fa92b80))
+* styles and integrates ImageGallery at PDP ([#6](https://github.com/vtex-sites/gatsby.store/issues/6)) ([b3585c7](https://github.com/vtex-sites/gatsby.store/commit/b3585c7935b17dd6a59425322f32c874def63aca))
+* suggestions ([#16](https://github.com/vtex-sites/gatsby.store/issues/16)) ([16857d1](https://github.com/vtex-sites/gatsby.store/commit/16857d142ac27606226d18c64fb51e756d4916df))
+* Support for cross selling API ([#137](https://github.com/vtex-sites/gatsby.store/issues/137)) ([57ac913](https://github.com/vtex-sites/gatsby.store/commit/57ac91384997d5708fa1747bd95df99f97a275a3))
+* Sync Cart with Checkout ([#46](https://github.com/vtex-sites/gatsby.store/issues/46)) ([a86e71f](https://github.com/vtex-sites/gatsby.store/commit/a86e71f7fd5217e76add9d4ee38715f615c52e88))
+* Trade Policies ([#68](https://github.com/vtex-sites/gatsby.store/issues/68)) ([8e9d1f4](https://github.com/vtex-sites/gatsby.store/commit/8e9d1f402e8d14cca0b7929d9e07562a2fb6c97c))
+* Unify Storybook Documentation ([#26](https://github.com/vtex-sites/gatsby.store/issues/26)) ([c4cd59d](https://github.com/vtex-sites/gatsby.store/commit/c4cd59de1442a48b1afc12519452e94386b9295d))
+* Update Regionalization Button and Regionalization Bar to show the postal code ([#8](https://github.com/vtex-sites/gatsby.store/issues/8)) ([77e7062](https://github.com/vtex-sites/gatsby.store/commit/77e7062daa8ebd454714a806168b44ea3bded4c5)), closes [#495](https://github.com/vtex-sites/gatsby.store/issues/495)
+* Uses `OutOfStock` component from FSUI ([#70](https://github.com/vtex-sites/gatsby.store/issues/70)) ([88c1e46](https://github.com/vtex-sites/gatsby.store/commit/88c1e4667c9fc125c794ae176488a7f58d10f01c))
+* Uses `ProductCard` component from FSUI ([#34](https://github.com/vtex-sites/gatsby.store/issues/34)) ([791e82d](https://github.com/vtex-sites/gatsby.store/commit/791e82d9d18220e770943ab50b756cbcacdddc85))
+* Uses Hero component from FSUI ([#92](https://github.com/vtex-sites/gatsby.store/issues/92)) ([e041beb](https://github.com/vtex-sites/gatsby.store/commit/e041beb86df3f57292b497eae0ef47d91672a3af))
+* useStorage update onFocus ([#58](https://github.com/vtex-sites/gatsby.store/issues/58)) ([e41069d](https://github.com/vtex-sites/gatsby.store/commit/e41069d5a8095980365b9fd1d3c82a088d315076))
 
-### Changed
 
-- A flaky PLP infinite scroll test to be more stable ([#149](https://github.com/vtex-sites/gatsby.store/pull/149))
-- Cypress version from 6.6.0 to 9.5.4 to match WebOps' ([#148](https://github.com/vtex-sites/gatsby.store/pull/148))
-- Updates `IncentivesFooter` content ([#147](https://github.com/vtex-sites/gatsby.store/pull/147))
-- Updated Getting Started doc page and overall improvements ([#140](https://github.com/vtex-sites/gatsby.store/pull/140))
+### Bug Fixes
 
-### Deprecated
+* Availability for offers ([#31](https://github.com/vtex-sites/gatsby.store/issues/31)) ([7854249](https://github.com/vtex-sites/gatsby.store/commit/785424908f2ae66e41182252eddc8bc7a51ede8b))
+* Breadcrumb broken links ([#50](https://github.com/vtex-sites/gatsby.store/issues/50)) ([1495ad7](https://github.com/vtex-sites/gatsby.store/commit/1495ad73bc33f709a8506a348aa92d6f26b7de27))
+* Cart item with additionalProperty ([#74](https://github.com/vtex-sites/gatsby.store/issues/74)) ([5c9b0fe](https://github.com/vtex-sites/gatsby.store/commit/5c9b0fed0fe93f6c4cb41449d4a654b6403cf39d))
+* duplicated query at `useTopSearch` hook ([#105](https://github.com/vtex-sites/gatsby.store/issues/105)) ([e475aa2](https://github.com/vtex-sites/gatsby.store/commit/e475aa20223b36d06443d955bf76aeaedc85c119))
+* Fix missing styles ([#20](https://github.com/vtex-sites/gatsby.store/issues/20)) ([caa3d67](https://github.com/vtex-sites/gatsby.store/commit/caa3d67c561a2db8a8ba9168ac8b754beb5042c6))
+* Fixes custom attributes for `img` and `link` tags ([#60](https://github.com/vtex-sites/gatsby.store/issues/60)) ([0535e17](https://github.com/vtex-sites/gatsby.store/commit/0535e173597e527b7a21815f850ec640591e7953))
+* Hydration mismatch ([#3](https://github.com/vtex-sites/gatsby.store/issues/3)) ([3203911](https://github.com/vtex-sites/gatsby.store/commit/32039112c1906d5ebffa8081f649eb43b2545b1b))
+* Improves Storybook titles ([#79](https://github.com/vtex-sites/gatsby.store/issues/79)) ([c819bd4](https://github.com/vtex-sites/gatsby.store/commit/c819bd4bc136bcac320d15d1bb5a9bf566fc3d38))
+* Page error codes ([#108](https://github.com/vtex-sites/gatsby.store/issues/108)) ([db5c414](https://github.com/vtex-sites/gatsby.store/commit/db5c4143c2794bc0be5b25e34e49b701ba408e2a))
+* Product Suggestions ([#73](https://github.com/vtex-sites/gatsby.store/issues/73)) ([9fca7ba](https://github.com/vtex-sites/gatsby.store/commit/9fca7bafa95399eff6cff886c05d185ae807c52d))
+* Promotions ([#42](https://github.com/vtex-sites/gatsby.store/issues/42)) ([b0b2f84](https://github.com/vtex-sites/gatsby.store/commit/b0b2f8464e0177eef8dfe39faf6049901e299709))
+* Region Input ([#98](https://github.com/vtex-sites/gatsby.store/issues/98)) ([8448853](https://github.com/vtex-sites/gatsby.store/commit/84488530d2aa170cab27db4398d5c3ea680a127e))
+* Removes unused `-default` at css variables ([#82](https://github.com/vtex-sites/gatsby.store/issues/82)) ([51c5001](https://github.com/vtex-sites/gatsby.store/commit/51c5001162fe88dec7b5f66e3f6cac521ff48bbc))
+* Resolves `@reach/router` on storybook ([#48](https://github.com/vtex-sites/gatsby.store/issues/48)) ([4e7098e](https://github.com/vtex-sites/gatsby.store/commit/4e7098ef777b9d07c4b5ac46f820bd3aa8474a56))
+* scrollTo not working on Safari 15.4 ([#121](https://github.com/vtex-sites/gatsby.store/issues/121)) ([65be695](https://github.com/vtex-sites/gatsby.store/commit/65be6955112e2190357e4f09069a3f96c09d05dd))
+* SonarQube warnings/error ([#145](https://github.com/vtex-sites/gatsby.store/issues/145)) ([7a99d4f](https://github.com/vtex-sites/gatsby.store/commit/7a99d4f35c499074d9c1ca2e929981aceef3b25a))
+* Spot pricing sort for lowPrice/highPrice ([#102](https://github.com/vtex-sites/gatsby.store/issues/102)) ([08d4c18](https://github.com/vtex-sites/gatsby.store/commit/08d4c182b49eb5c8454dd3d9c442545ee0dc5b45))
+* Toggle arrows at the ImageGallery in accordance to scroll position ([#27](https://github.com/vtex-sites/gatsby.store/issues/27)) ([ab64e35](https://github.com/vtex-sites/gatsby.store/commit/ab64e35a2c71686e60091b665a64a317afdbae74))
+* Top searches ([#69](https://github.com/vtex-sites/gatsby.store/issues/69)) ([7c7e9e7](https://github.com/vtex-sites/gatsby.store/commit/7c7e9e758791f22181d6a88198e64e94f602137b))
+* Transfers responsibility of `InputText`'s main attributes and callbacks to the renderer ([#144](https://github.com/vtex-sites/gatsby.store/issues/144)) ([1309954](https://github.com/vtex-sites/gatsby.store/commit/1309954451b54273feb0e73cfaac87478ac793fc))
+* Updates PR template ([#90](https://github.com/vtex-sites/gatsby.store/issues/90)) ([774cbdc](https://github.com/vtex-sites/gatsby.store/commit/774cbdcb7beff07e65133e00467bc4672b527596))
 
-### Removed
 
-### Fixed
+### Chores
 
-- Transfers responsibility of `InputText`'s main attributes and callbacks to the renderer ([#144](https://github.com/vtex-sites/gatsby.store/pull/144))
-- priceCurrency field on SEO meta data ([#139](https://github.com/vtex-sites/gatsby.store/pull/139))
+* Add regionalization bumping FastStore packages ([#4](https://github.com/vtex-sites/gatsby.store/issues/4)) ([df9b451](https://github.com/vtex-sites/gatsby.store/commit/df9b451f7d90b9d84fd30381288dcb7e25c1ddf5))
+* add tests to cart analytics ([#66](https://github.com/vtex-sites/gatsby.store/issues/66)) ([2bcfcb9](https://github.com/vtex-sites/gatsby.store/commit/2bcfcb9749db438fc7dde6d5ea4751675ae0b286))
+* Adds `--docs` to storybook script ([#97](https://github.com/vtex-sites/gatsby.store/issues/97)) ([106d076](https://github.com/vtex-sites/gatsby.store/commit/106d076698dc473c0b6cc671383fead171965b8b))
+* Better organize the Changelog ([#24](https://github.com/vtex-sites/gatsby.store/issues/24)) ([3030524](https://github.com/vtex-sites/gatsby.store/commit/3030524f8068f68b0e9c581012b408a19d909366))
+* configure standard-version ([4571193](https://github.com/vtex-sites/gatsby.store/commit/45711935d16de86d3cf305a34b66938aabffa900))
+* Enable node_modules cache ([#32](https://github.com/vtex-sites/gatsby.store/issues/32)) ([1fe8336](https://github.com/vtex-sites/gatsby.store/commit/1fe8336e926684979caa8c72d5cefa175bce2354))
+* Framework cache ([#38](https://github.com/vtex-sites/gatsby.store/issues/38)) ([3070bc4](https://github.com/vtex-sites/gatsby.store/commit/3070bc4dc1b9545a30dd7b714e72398b2f58546a))
+* FSSS-280 Code Improvements ([#40](https://github.com/vtex-sites/gatsby.store/issues/40)) ([28d091e](https://github.com/vtex-sites/gatsby.store/commit/28d091e59b7615159b09e91534c4129b1104f6a4))
+* home performance improvements ([#10](https://github.com/vtex-sites/gatsby.store/issues/10)) ([27c1b00](https://github.com/vtex-sites/gatsby.store/commit/27c1b00ad51193770e5b29755c1118383387e84d))
+* Improve integration tests by upgrading Cypress to 9.6.5 ([#148](https://github.com/vtex-sites/gatsby.store/issues/148)) ([e583194](https://github.com/vtex-sites/gatsby.store/commit/e583194f4d8f391664e2fdd1b8ff3148e461e27e))
+* Improves rows and dividers on storybook ([#96](https://github.com/vtex-sites/gatsby.store/issues/96)) ([ca4e7d0](https://github.com/vtex-sites/gatsby.store/commit/ca4e7d084f50b79279845a4d3cb714b3231cc376))
+* Organize some search components ([#7](https://github.com/vtex-sites/gatsby.store/issues/7)) ([cc35ff8](https://github.com/vtex-sites/gatsby.store/commit/cc35ff89f347af592e3f4b135df1105b44205ad5))
+* Remove logo from code  ([#116](https://github.com/vtex-sites/gatsby.store/issues/116)) ([c4b6a96](https://github.com/vtex-sites/gatsby.store/commit/c4b6a96116f43fc58bb9e6ea5c4a235af8529988))
+* Rename Badge prop  ([#25](https://github.com/vtex-sites/gatsby.store/issues/25)) ([c520c00](https://github.com/vtex-sites/gatsby.store/commit/c520c00e3e48b916d7ae9458ab87934eead3a57a))
+* Show more details about failed accessibility tests ([#23](https://github.com/vtex-sites/gatsby.store/issues/23)) ([169872a](https://github.com/vtex-sites/gatsby.store/commit/169872ae4e0144cccf10427c06ac78e78f5aff27))
+* Stabilize a flaky PLP test ([#149](https://github.com/vtex-sites/gatsby.store/issues/149)) ([6028f5d](https://github.com/vtex-sites/gatsby.store/commit/6028f5d202ebc7f012cbb41db9b9c75e80fa7ef0))
+* Storybook Docs Updates ([#140](https://github.com/vtex-sites/gatsby.store/issues/140)) ([14863c0](https://github.com/vtex-sites/gatsby.store/commit/14863c02034000b981ca043f1d1387296037eb1b)), closes [#147](https://github.com/vtex-sites/gatsby.store/issues/147)
+* storybook improvements ([#115](https://github.com/vtex-sites/gatsby.store/issues/115)) ([62679bd](https://github.com/vtex-sites/gatsby.store/commit/62679bdfdceca830cead213d23d0b816f3804d0d))
+* Sync components' code ([#94](https://github.com/vtex-sites/gatsby.store/issues/94)) ([88b0f18](https://github.com/vtex-sites/gatsby.store/commit/88b0f18d605045fae083bd0ccd266afdf9fa604e))
+* Unify Link usage ([#103](https://github.com/vtex-sites/gatsby.store/issues/103)) ([2a96301](https://github.com/vtex-sites/gatsby.store/commit/2a963014daeae7b12a73d38bd06eb0b12b60347b))
+* Update Regionalization Input ([#9](https://github.com/vtex-sites/gatsby.store/issues/9)) ([77d5432](https://github.com/vtex-sites/gatsby.store/commit/77d5432f084550da0c06decb57a44949d9875668)), closes [#494](https://github.com/vtex-sites/gatsby.store/issues/494)
+* Upgrade dependencies ([#114](https://github.com/vtex-sites/gatsby.store/issues/114)) ([8d4e5bc](https://github.com/vtex-sites/gatsby.store/commit/8d4e5bced8098c50b950632e2f4f0fefa229f23e))
+* Upgrade Gatsby@4.14 ([#59](https://github.com/vtex-sites/gatsby.store/issues/59)) ([4740fe6](https://github.com/vtex-sites/gatsby.store/commit/4740fe65c1d453d83970e7c2558d267d5434fc03))
+* Upgrade Storybook from 6.4.20 to 6.5.9 ([#109](https://github.com/vtex-sites/gatsby.store/issues/109)) ([130341a](https://github.com/vtex-sites/gatsby.store/commit/130341ab32cdd5048b6956cb832609d267d87ef2))
+* Uses CSS Modules on `QuantitySelector` ([#75](https://github.com/vtex-sites/gatsby.store/issues/75)) ([83c69ad](https://github.com/vtex-sites/gatsby.store/commit/83c69add1b1fd16c78430da33a329cf48ff3ccd1))
+* Uses CSS Modules on product components at PLP ([#54](https://github.com/vtex-sites/gatsby.store/issues/54)) ([56a4768](https://github.com/vtex-sites/gatsby.store/commit/56a4768bbafd444c78c0578f2178fa622445315b))
+* Uses CSS Modules to `ImageGallery` ([#41](https://github.com/vtex-sites/gatsby.store/issues/41)) ([ac45707](https://github.com/vtex-sites/gatsby.store/commit/ac4570716beea1eb2bdafa10e88214c36aad7b31))
 
 ## [22.26.0.beta] - 2022-07-01
 
